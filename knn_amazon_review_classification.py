@@ -17,8 +17,8 @@ class K_Nearest_Neighbor:
     
     #read data from the .dat from  both train and test files
     def read_data(self):
-        Train_data_file = pd.read_csv("1611766549_6456213_train_file.dat", sep='\t', names=["Class","Reviews"], usecols=range(2))
-        Test_data_file = pd.read_fwf("1611766549_7170458_test.dat", sep='\t' ,names=["Reviews"], usecols=range(1),skip_blank_lines=False, na_filter=False)
+        Train_data_file = pd.read_csv("train_data.dat", sep='\t', names=["Class","Reviews"], usecols=range(2))
+        Test_data_file = pd.read_fwf("test_data.dat", sep='\t' ,names=["Reviews"], usecols=range(1),skip_blank_lines=False, na_filter=False)
         
         #Drop the blank lines from training file
         Train_data_file = Train_data_file.dropna()
