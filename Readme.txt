@@ -1,4 +1,3 @@
-Assignment: CS 584 HW1
 Name: Hrishikesh Vinod Vibhute
 Code File name: HW1_Vibhute.py
 
