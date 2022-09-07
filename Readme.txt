@@ -1,13 +1,5 @@
-Name: Hrishikesh Vinod Vibhute
-Code File name: HW1_Vibhute.py
-
-Ways for code execution:
-1) As it is .py file it can be run from command prompt.
-2) File can also be executed in Anaconda Spyder.
-
-Step:
-Just need to run the file.
-No input required after running the code.
+Problem statement:
+Implementation of KNN from scratch to handle the textual data having amazon reviews for baby products.
 
 About KNN in code:
 KNN implementation is on line no: 80
